@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', 'Courier', sans-serif;
+
+}
+
+.container{
+  background-image: linear-gradient(to top right, #433ba0,#4ec3ca);
+  margin: 5rem 11.2rem;
+  padding: 115px 70px;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+}
+
+.center{
+  position: relative;
+  margin: 0 auto;
+}
+
+.num{
+  position: relative;
+  height: 100px;
+  width: 200px;
+  display: grid;
+  place-items: center;
+}
+
+.one-one{
+  position: absolute;
+  z-index:1;
+  top: 0;
+  left: -16px;
+  height: 40px;
+  width: 20px;
+  background: #fff;
+  border-radius: 3px;
+  transform: rotate(50deg);
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.one-two{
+  position: absolute;
+  z-index: 10;
+  left: 0px;
+  height: 100px;
+  width: 24px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.zero-one{
+  position: absolute;
+  z-index: 8;
+  left: 17px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 24px solid #fff;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.zero-two{
+  position: absolute;
+  z-index: 5;
+  left: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 024px solid #fff;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.days{
+  line-height: 85%;
+  color: #fff;
+  font-size: 85px;
+  padding-top: 0;
+  font-weight: 600;
+}
+
+.challenge{
+  color: #fff;
+  font-size: 25.5px;
+  line-height: 50%;
+}
+
